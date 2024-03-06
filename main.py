@@ -5,6 +5,8 @@ from fpdf import FPDF
 import pandas as pd
 import os
 
+from starlette.background import BackgroundTask
+
 # Load your DataFrame here
 df = pd.read_csv('format_dataset.csv')
 # For the sake of this example, let's assume that the CSV is already loaded into a DataFrame called 'df'

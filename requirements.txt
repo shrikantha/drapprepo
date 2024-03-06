@@ -1,4 +1,8 @@
-fastapi
-uvicorn
-pandas
+fastapi~=0.110.0
+uvicorn~=0.27.1
+pandas~=2.2.1
 fpdf2
+pydantic~=2.6.2
+pytest
+requests
+httpx
